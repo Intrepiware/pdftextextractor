@@ -1,10 +1,10 @@
-# PDF To Text
+# PDF Text Extractor
 
 ## Summary
 
 This project converts a multi-page PDF to png images, then offers two ways to read the text off of those pages. The extracted text is saved in a separate markdown file.
 
-This project is intended (and best suited) for PDFs that contain scanned copies of a physical page. Most PDfs have the text digitally encoded in the file (i.e, you can highlight the text and copy + paste it). This project *will* work for those files, but there are better ways of extracting the text from those files (e.g. [PyPDF2](https://pypdf2.readthedocs.io/en/3.0.0/user/extract-text.html)).
+This project is intended (and best suited) for PDFs that contain scanned copies of a physical page. Most PDFs have the text digitally encoded in the file (i.e, you can highlight the text and copy + paste it). This project *will* work in those cases, but there are better ways of extracting the text from those files (e.g. [PyPDF2](https://pypdf2.readthedocs.io/en/3.0.0/user/extract-text.html)).
 
 ## Extraction Methods
 
